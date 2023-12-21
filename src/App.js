@@ -24,11 +24,11 @@ const laiArray=["ladybug","lady","lai-mokah","laï"]
     <UserProfile name="Donte hart" age="34" location="New Jersey" />
     <UserProfile name="sue lopez" age="30" location="cali" />
 
-    <ProductCard className="product_card" title="title:dog- dog " price="price: $30" description=" Description: dog letter make a dog  " />
+    <ProductCard  title="title:dog- dog " price="price: $30" description=" Description: dog letter make a dog  " />
 
-    <ProductCard className="product_card" title="title: Love Bug" price="price: $25" description="description:lady bug with heart wings  " />
+    <ProductCard  title="title: Love Bug" price="price: $25" description="description:lady bug with heart wings  " />
 
-    <ProductCard className="product_card" title="title: CheckMate " price="price: $80" description="description: letter OF chess pieces" />
+    <ProductCard  title="title: CheckMate " price="price: $80" description="description: letter OF chess pieces" />
 
 
     < ItemList data={laiArray}/>

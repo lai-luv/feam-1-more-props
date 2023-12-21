@@ -1,13 +1,13 @@
 import React from 'react';
 
-function UserProfile(props){
+function UserProfile({name, age , location }){
     
         return (
             <div className="user-profile">
                 <h2>User Profile</h2>
-                <p><strong>Name:</strong>{props.name}</p>
-                <p><strong>Age:</strong> {props.age}</p>
-                <p><strong>Location:</strong> {props.location}</p>
+                <p><strong>Name:</strong>{name}</p>
+                <p><strong>Age:</strong> {age}</p>
+                <p><strong>Location:</strong> {location}</p>
                 
             </div>
         );
